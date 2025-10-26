@@ -1,0 +1,15 @@
+Epoch [1/2], Loss: 5.5441, Accuracy: 1.18%
+Epoch [2/2], Loss: 4.4164, Accuracy: 1.86%
+Training time: 25.23 seconds
+Test Accuracy: 3.63%
+Total parameters: 21458488
+
+
+Last 7 lines of torchsummary:
+Non-trainable params: 0
+----------------------------------------------------------------
+Input size (MB): 0.57
+Forward/backward pass size (MB): 322.34
+Params size (MB): 81.86
+Estimated Total Size (MB): 404.78
+----------------------------------------------------------------
