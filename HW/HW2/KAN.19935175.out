@@ -1,0 +1,4 @@
+checkpoint directory created: ./model
+saving model version 0.0
+Best Validation MSE: 86329819136.0000
+Best Validation RMSE: 293819.3648

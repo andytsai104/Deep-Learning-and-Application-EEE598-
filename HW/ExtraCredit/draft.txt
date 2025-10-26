@@ -1,0 +1,37 @@
+INTRO:
+A Markow Decision Process is a framework for modeling sequential decision-making situations.
+
+Terminology for Markov Decision Process:
+environment - the world or the system where the problem is
+agent - the one who's making actions and decisions that interact with the environment
+states - a set of possible situations in the environment, which the agent can experience
+actions - a set of available choices for the agent to choose
+reward - is the feedback after the agent take a certain action in a state
+policy - is a strategy that map states to actions, which maximize the long-term reward by guiding the agent's decision
+
+
+
+
+1. Import dependencies
+
+2. Get the images of the objects (the agent, the reward, the backgraound, and the hole)
+
+3. Copy the class, which can take care of the visualization part of this problem. 
+
+As you can see, we deifne the layout of our map (4*4).
+Also, the initial state is 0, which is the starting point of our agent.
+Then, we can pass the rows and coulums of our map to the class, 
+and call out the drawing methods, pass our layout, initial stat to build the mapping image.
+And the "draw_state_index" is to decide whether we show the index of each state on our map.
+
+
+4. Then, I copy the transition probability of the tutorial.
+This transition probability matrix indicates the relationship of each state and their next state.
+In this matrix, the index of colums is the current state of time t, we denote it as s_t.
+And the index of rows is the corresponding next state, which we denote it as s_t+1.
+(show example)
+
+The property of this matrix is that all numbers in each colums sum up as 1.
+
+5. Then we can go into Markov Process. 
+Markov process is to get the next state based on the transition probability matrix.
