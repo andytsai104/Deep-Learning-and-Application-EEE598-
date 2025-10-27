@@ -7,8 +7,12 @@
 ---
 
 ## 🧠 Overview
-This repository showcases my coursework, experiments, and final project completed in **EEE598: Deep Learning and Application** at Arizona State University.  
-Each assignment demonstrates key machine learning and computer vision concepts, covering **supervised learning, backpropagation, CNNs, transformers, and generative AI** — culminating in my final research project: *Handwriting Company Logos Recognition*.
+This repository presents my coursework, experiments, and final project completed in **EEE598: Deep Learning and Application** at Arizona State University.  
+All deep learning experiments were conducted using **ASU’s SOL high-performance computing (HPC) cluster**, leveraging **NVIDIA A100 GPUs** for large-scale model training and experimentation.  
+
+Each assignment demonstrates key concepts in **machine learning and computer vision**, including **supervised learning, backpropagation, CNNs, transformers, and generative AI** — culminating in my final research project: *Handwriting Company Logos Recognition*.
+
+
 
 ---
 
@@ -30,7 +34,7 @@ Each assignment demonstrates key machine learning and computer vision concepts, 
 - Configured a **Conda + PyTorch environment** and verified GPU allocation on **NVIDIA A100 (SOL)**.
 - Implemented tensor operations, gradient computation, and network parameter analysis.
 
-📘 *Skills:* Tensor basics · Autograd · GPU utilization  
+📘 *Skills:* Tensor basics · Autograd · GPU utilization · HPC (ASU SOL)
 📂 *Report:* [`Assignment_1.pdf`](./Assignment_1.pdf)
 
 ---
@@ -49,14 +53,15 @@ Each assignment demonstrates key machine learning and computer vision concepts, 
 ---
 
 ## Assignment 3: Vision-Based Deep Learning Models
-**Key topics:** CNN architectures, feature extraction, transfer learning
+**Key topics:** CNN architectures · feature extraction · transfer learning
 
-- Explored **VGG-16** layers for feature extraction and perceptual loss.
-- Summarized and trained **EfficientNetV2-S** on *Oxford Flowers-102* dataset (tested on dual A100 GPUs).
-- Designed a **ResNet-36** architecture with a custom activation function to improve ImageNet performance.
-- Implemented **Grad-CAM** visualization and custom image augmentation (noise masking).
+- Explored **VGG-16** intermediate layers for feature extraction and **perceptual loss** analysis.  
+- Summarized and trained **EfficientNetV2-S** on the *Oxford Flowers-102* dataset, evaluating model accuracy and convergence behavior.  
+- Implemented **multi-GPU training** on the **ASU SOL HPC cluster (NVIDIA A100)** to accelerate training and benchmarking.  
+- Designed a **custom ResNet-36** architecture with an additional convolutional layer and a novel activation function to enhance ImageNet classification performance.  
+- Applied **Grad-CAM** visualization and developed a **custom image-augmentation method** (randomized noise masking) to analyze robustness.
 
-📘 *Skills:* CNNs · Feature visualization · Grad-CAM · Multi-GPU training  
+📘 *Skills:* CNNs · Feature visualization · Grad-CAM · Multi-GPU training · Custom architectures · HPC (ASU SOL)
 📂 *Report:* [`Assignment_3.pdf`](./Assignment_3.pdf)
 
 ---
@@ -98,7 +103,7 @@ Summarized the final project workflow, comparative results, and future work (Vis
 
 ## 🧩 Tools & Libraries
 - **Frameworks:** PyTorch, TensorFlow, Hugging Face, Matplotlib  
-- **Hardware:** NVIDIA A100 GPU (ASU SOL)  
+- **Hardware / HPC:** NVIDIA A100 GPUs on ASU SOL Cluster 
 - **Languages:** Python 3.10  
 - **Others:** Tkinter, NumPy, Pandas, Google Colab
 
