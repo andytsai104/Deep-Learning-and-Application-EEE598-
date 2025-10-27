@@ -1,4 +1,4 @@
-# EEE598 Deep Learning and Application
+# Deep Learning and Application (EEE598)
 
 
 ## Table of Contents
