@@ -6,7 +6,7 @@
 
 ---
 
-## 🧠 Overview
+## Overview
 This repository presents my coursework, experiments, and final project completed in **EEE598: Deep Learning and Application** at Arizona State University.  
 All deep learning experiments were conducted using **ASU’s SOL high-performance computing (HPC) cluster**, leveraging **NVIDIA A100 GPUs** for large-scale model training and experimentation.  
 
@@ -16,7 +16,7 @@ Each assignment demonstrates key concepts in **machine learning and computer vis
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 - [Assignment 1: Introduction to Deep Learning](#assignment-1-introduction-to-deep-learning)
 - [Assignment 2: Perceptrons, Backpropagation, and KAN](#assignment-2-perceptrons-backpropagation-and-kan)
 - [Assignment 3: Vision-Based Deep Learning Models](#assignment-3-vision-based-deep-learning-models)
@@ -101,15 +101,10 @@ Summarized the final project workflow, comparative results, and future work (Vis
 
 ---
 
-## 🧩 Tools & Libraries
+## Tools & Libraries
 - **Frameworks:** PyTorch, TensorFlow, Hugging Face, Matplotlib  
 - **Hardware / HPC:** NVIDIA A100 GPUs on ASU SOL Cluster 
 - **Languages:** Python 3.10  
 - **Others:** Tkinter, NumPy, Pandas, Google Colab
 
----
-
-## 🧾 License
-This repository and its contents are for academic purposes only.  
-All project codes, models, and reports were developed by **Chih-Hao (Andy) Tsai** under the supervision of **Dr. Suren Jayasuriya**.
 
