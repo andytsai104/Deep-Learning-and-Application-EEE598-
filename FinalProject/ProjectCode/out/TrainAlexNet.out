@@ -1,0 +1,31 @@
+Current device: cuda
+Epoch: 1/10, Learning Rate: 0.001
+Training Loss: 0.0148, Training Accuracy: 0.0427
+Testing Loss: 0.0595, Testing Accuracy: 0.11981787682722263
+Epoch: 2/10, Learning Rate: 0.001
+Training Loss: 0.0150, Training Accuracy: 0.0846
+Testing Loss: 0.0594, Testing Accuracy: 0.11981787682722263
+Epoch: 3/10, Learning Rate: 0.0009000000000000001
+Training Loss: 0.0150, Training Accuracy: 0.0719
+Testing Loss: 0.0593, Testing Accuracy: 0.059908938413611314
+Epoch: 4/10, Learning Rate: 0.0009000000000000001
+Training Loss: 0.0150, Training Accuracy: 0.0494
+Testing Loss: 0.0594, Testing Accuracy: 0.041936256889527915
+Epoch: 5/10, Learning Rate: 0.0008100000000000001
+Training Loss: 0.0149, Training Accuracy: 0.0457
+Testing Loss: 0.0594, Testing Accuracy: 0.041936256889527915
+Epoch: 6/10, Learning Rate: 0.0008100000000000001
+Training Loss: 0.0148, Training Accuracy: 0.0756
+Testing Loss: 0.0595, Testing Accuracy: 0.11981787682722263
+Epoch: 7/10, Learning Rate: 0.000729
+Training Loss: 0.0149, Training Accuracy: 0.0749
+Testing Loss: 0.0593, Testing Accuracy: 0.04493170381020848
+Epoch: 8/10, Learning Rate: 0.000729
+Training Loss: 0.0149, Training Accuracy: 0.0554
+Testing Loss: 0.0595, Testing Accuracy: 0.05391804457225018
+Epoch: 9/10, Learning Rate: 0.0006561000000000001
+Training Loss: 0.0149, Training Accuracy: 0.0472
+Testing Loss: 0.0595, Testing Accuracy: 0.04493170381020848
+Epoch: 10/10, Learning Rate: 0.0006561000000000001
+Training Loss: 0.0149, Training Accuracy: 0.0569
+Testing Loss: 0.0593, Testing Accuracy: 0.06290438533429188
