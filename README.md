@@ -35,7 +35,7 @@ Each assignment demonstrates key concepts in **machine learning and computer vis
 - Implemented tensor operations, gradient computation, and network parameter analysis.
 
 📘 *Skills:* Tensor basics · Autograd · GPU utilization · HPC (ASU SOL)
-📂 *Report:* [`Assignment_1.pdf`](./Assignment_1.pdf)
+📂 *Report:* [`Assignment_1.pdf`](./HW/HW1/Assignment_1.pdf)
 
 ---
 
@@ -48,7 +48,7 @@ Each assignment demonstrates key concepts in **machine learning and computer vis
 - Compared **MLP vs. Kolmogorov–Arnold Networks (KAN)** — analyzing training accuracy, loss, and runtime.
 
 📘 *Skills:* Linear classifiers · Gradient derivation · MLP vs. KAN architecture  
-📂 *Report:* [`Assignment_2.pdf`](./Assignment_2.pdf)
+📂 *Report:* [`Assignment_2.pdf`](./HW/HW2/Assignment_2.pdf)
 
 ---
 
@@ -62,7 +62,7 @@ Each assignment demonstrates key concepts in **machine learning and computer vis
 - Applied **Grad-CAM** visualization and developed a **custom image-augmentation method** (randomized noise masking) to analyze robustness.
 
 📘 *Skills:* CNNs · Feature visualization · Grad-CAM · Multi-GPU training · Custom architectures · HPC (ASU SOL)
-📂 *Report:* [`Assignment_3.pdf`](./Assignment_3.pdf)
+📂 *Report:* [`Assignment_3.pdf`](./HW/HW3/Assignment_3.pdf)
 
 ---
 
@@ -75,7 +75,7 @@ Each assignment demonstrates key concepts in **machine learning and computer vis
 - **DCGAN:** Built and trained a **DCGAN** on both synthetic and real datasets (colored squares, cats faces), iteratively tuning parameters for realistic outputs.
 
 📘 *Skills:* RNNs · Transformer-based segmentation · GAN training  
-📂 *Report:* [`Assignment_4.pdf`](./Assignment_4.pdf)
+📂 *Report:* [`Assignment_4.pdf`](./HW/HW4/Assignment_4.pdf)
 
 ---
 
@@ -91,13 +91,13 @@ This capstone project develops an **image recognition system** that identifies *
 - Achieved up to **60% test accuracy** using EfficientNet-B0 with data augmentation.
 
 📘 *Skills:* Autoencoders · Vision Transformers · GUI programming · Cosine similarity search  
-📂 *Project Paper:* [`Final_Paper.pdf`](./Final_Paper.pdf)
+📂 *Project Paper:* [`Final_Paper.pdf`](./FinalProject/Final_Paper.pdf)
 
 ---
 
 ## Poster Presentation
 Summarized the final project workflow, comparative results, and future work (Vision Transformer extension).  
-📂 *Poster:* [`FinalPoster.pdf`](./FinalPoster.pdf)
+📂 *Poster:* [`FinalPoster.pdf`](./FinalProject/FinalPoster.pdf)
 
 ---
 
@@ -106,20 +106,6 @@ Summarized the final project workflow, comparative results, and future work (Vis
 - **Hardware / HPC:** NVIDIA A100 GPUs on ASU SOL Cluster 
 - **Languages:** Python 3.10  
 - **Others:** Tkinter, NumPy, Pandas, Google Colab
-
----
-
-## 📚 Course Context
-**EEE598: Deep Learning and Application**  
-Part of the *M.S. Robotics and Autonomous Systems – Electrical Engineering concentration* at **Arizona State University**.  
-This course provided hands-on experience in **neural architectures, model design, and GPU-accelerated training** across vision and generative domains.
-
----
-
-## 🔗 Related Links
-- [ASU Robotics & Autonomous Systems (RAS) Program](https://ras.engineering.asu.edu/)
-- [Course Handbook (MS-RAS 2024-2025)](./RAS-Handbook-24-25.pdf)
-- [Graduate Portfolio Guidelines (EE Concentration)](./Graduate-MS-RAS-EE-Portfolio-Instructions.pdf)
 
 ---
 
