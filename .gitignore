@@ -1,0 +1,64 @@
+# =====================================
+# 🧠 EEE598 Deep Learning (.gitignore)
+# =====================================
+
+# === 課程教材（教授提供） ===
+Course Materials/
+PeerReview/
+presentation.mp4
+HW/HW3/P2/flowers-102
+HW/HW4/P1/data
+HW/HW4/P4/celeba
+HW/HW4/P4/dataset
+
+# === 太大的檔案 ===
+FinalProject/FinalPoster.ppt
+FinalProject/Logo-2K+_WithoutCategory/
+FinalProject/Project Proporsal/
+FinalProject/projectslides.pptx
+FinalProject/smaller_train_and_test/
+FinalProject/train_and_test/
+Lab/
+output.png
+
+
+# === Python Cache ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Jupyter Checkpoints ===
+.ipynb_checkpoints/
+
+# === Virtual Environment ===
+.venv/
+env/
+venv/
+*.egg-info/
+
+# === Deep Learning 輸出 ===
+runs/
+logs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+
+# === Dataset / 資料檔 ===
+data/
+datasets/
+*.zip
+*.tar
+*.gz
+*.csv
+*.npy
+*.npz
+
+# === IDE / 系統檔案 ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
