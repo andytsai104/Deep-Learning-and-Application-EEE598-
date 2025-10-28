@@ -26,6 +26,14 @@ Each assignment demonstrates key concepts in **machine learning and computer vis
 
 ---
 
+## Tools & Libraries
+- **Frameworks:** PyTorch, TensorFlow, Hugging Face, Matplotlib  
+- **Hardware / HPC:** NVIDIA A100 GPUs on ASU SOL Cluster 
+- **Languages:** Python 3.10  
+- **Others:** Tkinter, NumPy, Pandas, Google Colab
+
+---
+
 ## Assignment 1: Introduction to Deep Learning
 **Key topics:** Dataset collection, model optimization, environment setup
 
@@ -97,14 +105,10 @@ This capstone project develops an **image recognition system** that identifies *
 
 ## Poster Presentation
 Summarized the final project workflow, comparative results, and future work (Vision Transformer extension).  
-📂 *Poster:* [`FinalPoster.pdf`](./FinalProject/FinalPoster.pdf)
+Poster: 
+<p float="center">
+  <img src="./FinalProject/FinalPoster.png" width="800">
+</p>
 
----
-
-## Tools & Libraries
-- **Frameworks:** PyTorch, TensorFlow, Hugging Face, Matplotlib  
-- **Hardware / HPC:** NVIDIA A100 GPUs on ASU SOL Cluster 
-- **Languages:** Python 3.10  
-- **Others:** Tkinter, NumPy, Pandas, Google Colab
 
 
